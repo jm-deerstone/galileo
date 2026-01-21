@@ -1,0 +1,26 @@
+# General
+.DS_Store
+.idea/
+*.log
+
+# Backend (galileo)
+galileo/venv/
+galileo/versioning.db
+galileo/datasources/
+galileo/models/
+galileo/__pycache__/
+galileo/*.pyc
+galileo/.pytest_cache/
+galileo/test_output.txt
+galileo/debug_error.txt
+
+# Frontend (galileo_frontend)
+galileo_frontend/node_modules/
+galileo_frontend/build/
+galileo_frontend/coverage/
+galileo_frontend/.pnp
+galileo_frontend/.pnp.js
+galileo_frontend/.env.local
+galileo_frontend/.env.development.local
+galileo_frontend/.env.test.local
+galileo_frontend/.env.production.local

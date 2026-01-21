@@ -1,0 +1,41 @@
+
+pip install "ray[default]" "ray[tune]" "ray[train]"
+
+## ---------stopping------------
+ray stop
+
+
+## ---------syncing-------------
+rsync -avz /Users/johannesmayer/Desktop/bachelor/projekt/galileo/ johannesmayer@192.168.0.117:/Users/johannesmayer/Desktop/bachelor/projekt/galileo/
+rsync -avz /Users/johannesmayer/Desktop/bachelor/projekt/galileo/datasources/ johannesmayer@192.168.0.117:/Users/johannesmayer/Desktop/bachelor/projekt/galileo/datasources/
+
+the on worker:
+
+pyenv shell 3.11.9
+
+deactivate
+
+python --version  # Should say Python 3.11.9
+which python
+# Remove the old venv if still there (BE SURE, this deletes your virtual env!)
+rm -rf /Users/johannesmayer/Desktop/bachelor/projekt/galileo/venv
+
+# Create the venv
+python -m venv /Users/johannesmayer/Desktop/bachelor/projekt/galileo/venv
+
+# Activate it
+source /Users/johannesmayer/Desktop/bachelor/projekt/galileo/venv/bin/activate
+
+# Double check python version INSIDE the venv
+python --version   # Should be Python 3.11.9
+
+pip install -r requirements.txt
+pip install ray "ray[default]" "ray[tune]" "ray[train]"
+
+
+## ---------starting host-------
+ray start --head --port=6379 --node-ip-address=192.168.0.37
+
+
+## ---------starting worker-----
+RAY_ENABLE_WINDOWS_OR_OSX_CLUSTER=1 ray start --address='192.168.0.37:6379' --node-ip-address=192.168.0.117

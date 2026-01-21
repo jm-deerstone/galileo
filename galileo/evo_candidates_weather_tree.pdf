@@ -1,0 +1,168 @@
+digraph {
+	rankdir=TB
+	{
+		rank=same
+		1 [label="ID 1
+Gen 0
+alpha=4.106561802729221
+l1_ratio=0.31993604268298353
+Score: 0.8441143025785129" fillcolor="#ffd6d6" shape=box style=filled]
+		2 [label="ID 2
+Gen 0
+alpha=8.037523590463186
+l1_ratio=0.793727642537958
+Score: 0.6355419317737655" fillcolor="#ffd6d6" shape=box style=filled]
+		3 [label="ID 3
+Gen 0
+alpha=0.8343940084818975
+l1_ratio=0.4869383339437205
+Score: 0.9055171174192151" fillcolor="#b3d1ff" shape=box style=filled]
+		4 [label="ID 4
+Gen 0
+alpha=2.6989928683733546
+l1_ratio=0.2670479987248162
+Score: 0.8685376525686439" fillcolor="#ffd6d6" shape=box style=filled]
+		5 [label="ID 5
+Gen 0
+alpha=1.7131621759355589
+l1_ratio=0.527463247289928
+Score: 0.8746408239144242" fillcolor="#b3d1ff" shape=box style=filled]
+	}
+	{
+		rank=same
+		6 [label="ID 6
+Gen 1
+alpha=1.5344482403999353
+l1_ratio=0.527463247289928
+Score: 0.8769187648709977" fillcolor="#b3d1ff" shape=box style=filled]
+		7 [label="ID 7
+Gen 1
+alpha=1.7131621759355589
+l1_ratio=0.4869383339437205
+Score: 0.8751755243906111" fillcolor="#ffd6d6" shape=box style=filled]
+		8 [label="ID 8
+Gen 1
+alpha=2.5067578925244547
+l1_ratio=0.4869383339437205
+Score: 0.8635363451191351" fillcolor="#ffd6d6" shape=box style=filled]
+	}
+	{
+		rank=same
+		10 [label="ID 10
+Gen 2
+alpha=1.5344482403999353
+l1_ratio=0.4869383339437205
+Score: 0.8776881776737042" fillcolor="#ffd6d6" shape=box style=filled]
+		11 [label="ID 11
+Gen 2
+alpha=0.8343940084818975
+l1_ratio=0.5456637819781582
+Score: 0.9034934702902994" fillcolor="#ffd6d6" shape=box style=filled]
+		9 [label="ID 9
+Gen 2
+alpha=0.8343940084818975
+l1_ratio=0.527463247289928
+Score: 0.904150892703892" fillcolor="#b3d1ff" shape=box style=filled]
+	}
+	{
+		rank=same
+		12 [label="ID 12
+Gen 3
+alpha=0.013618689518701488
+l1_ratio=0.5101805267667626
+Score: 0.9973620161535498" fillcolor="#b3d1ff" shape=box style=filled]
+		13 [label="ID 13
+Gen 3
+alpha=0.8343940084818975
+l1_ratio=0.4619342580633357
+Score: 0.9062749109754273" fillcolor="#b3d1ff" shape=box style=filled]
+		14 [label="ID 14
+Gen 3
+alpha=0.8343940084818975
+l1_ratio=0.4869383339437205
+Score: 0.9055171174192151" fillcolor="#ffd6d6" shape=box style=filled]
+	}
+	{
+		rank=same
+		15 [label="ID 15
+Gen 4
+alpha=0.01
+l1_ratio=0.5101805267667626
+Score: 0.9980427036295045" fillcolor="#b5e7b0" shape=box style=filled]
+		16 [label="ID 16
+Gen 4
+alpha=0.01
+l1_ratio=0.4619342580633357
+Score: 0.9979280551721441" fillcolor="#b3d1ff" shape=box style=filled]
+		17 [label="ID 17
+Gen 4
+alpha=0.5221654430688561
+l1_ratio=0.46701628129444417
+Score: 0.9288646232681654" fillcolor="#ffd6d6" shape=box style=filled]
+	}
+	{
+		rank=same
+		18 [label="ID 18
+Gen 5
+alpha=0.01
+l1_ratio=0.4619342580633357
+Score: 0.9979280551721441" fillcolor="#ffd6d6" shape=box style=filled]
+		19 [label="ID 19
+Gen 5
+alpha=0.3102976668706317
+l1_ratio=0.4643424983319328
+Score: 0.9534090177478404" fillcolor="#ffd6d6" shape=box style=filled]
+		20 [label="ID 20
+Gen 5
+alpha=0.01
+l1_ratio=0.49694566346067376
+Score: 0.9980111203220154" fillcolor="#ffd6d6" shape=box style=filled]
+	}
+	5 -> 6
+	3 -> 6
+	5 -> 7
+	3 -> 7
+	5 -> 8
+	3 -> 8
+	3 -> 9
+	6 -> 9
+	6 -> 10
+	3 -> 10
+	3 -> 11
+	6 -> 11
+	9 -> 12
+	3 -> 12
+	3 -> 13
+	9 -> 13
+	9 -> 14
+	3 -> 14
+	13 -> 15
+	12 -> 15
+	13 -> 16
+	12 -> 16
+	13 -> 17
+	12 -> 17
+	15 -> 18
+	16 -> 18
+	16 -> 19
+	15 -> 19
+	16 -> 20
+	15 -> 20
+	1 -> 6 [style=invis]
+	2 -> 6 [style=invis]
+	3 -> 6 [style=invis]
+	4 -> 6 [style=invis]
+	5 -> 6 [style=invis]
+	6 -> 10 [style=invis]
+	7 -> 10 [style=invis]
+	8 -> 10 [style=invis]
+	10 -> 12 [style=invis]
+	11 -> 12 [style=invis]
+	9 -> 12 [style=invis]
+	12 -> 15 [style=invis]
+	13 -> 15 [style=invis]
+	14 -> 15 [style=invis]
+	15 -> 18 [style=invis]
+	16 -> 18 [style=invis]
+	17 -> 18 [style=invis]
+}

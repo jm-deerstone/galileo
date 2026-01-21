@@ -1,0 +1,4 @@
+venv/
+versioning.db
+datasources/
+models/

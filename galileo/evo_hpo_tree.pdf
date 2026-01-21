@@ -1,0 +1,853 @@
+digraph {
+	rankdir=TB
+	{
+		rank=same
+		1 [label="ID 1
+Gen 0
+hidden_layer_sizes=(152,)
+activation=tanh
+alpha=0.006849899247385249
+Score: -11.752319809056793" fillcolor="#ffd6d6" shape=box style=filled]
+		10 [label="ID 10
+Gen 0
+hidden_layer_sizes=(168, 194, 146, 103, 19)
+activation=tanh
+alpha=0.002224222097281472
+Score: -11.752578902391473" fillcolor="#ffd6d6" shape=box style=filled]
+		11 [label="ID 11
+Gen 0
+hidden_layer_sizes=(78, 82)
+activation=relu
+alpha=0.00509028876351159
+Score: -3.043269008634139" fillcolor="#b3d1ff" shape=box style=filled]
+		12 [label="ID 12
+Gen 0
+hidden_layer_sizes=(22,)
+activation=relu
+alpha=0.004603673820391324
+Score: -11.60590845003151" fillcolor="#ffd6d6" shape=box style=filled]
+		13 [label="ID 13
+Gen 0
+hidden_layer_sizes=(76, 112, 170)
+activation=relu
+alpha=0.0037003967839853687
+Score: -0.6401976990405749" fillcolor="#b3d1ff" shape=box style=filled]
+		14 [label="ID 14
+Gen 0
+hidden_layer_sizes=(60, 79, 197, 98, 187)
+activation=relu
+alpha=0.0032952899618556163
+Score: -0.5903538819750926" fillcolor="#b3d1ff" shape=box style=filled]
+		15 [label="ID 15
+Gen 0
+hidden_layer_sizes=(115, 45, 103)
+activation=relu
+alpha=0.005943793419254306
+Score: -0.6023418874081294" fillcolor="#b3d1ff" shape=box style=filled]
+		2 [label="ID 2
+Gen 0
+hidden_layer_sizes=(14,)
+activation=tanh
+alpha=0.00112250647455892
+Score: -11.752615046384648" fillcolor="#ffd6d6" shape=box style=filled]
+		3 [label="ID 3
+Gen 0
+hidden_layer_sizes=(78,)
+activation=tanh
+alpha=0.009614138308705975
+Score: -11.752454516859348" fillcolor="#ffd6d6" shape=box style=filled]
+		4 [label="ID 4
+Gen 0
+hidden_layer_sizes=(122, 80)
+activation=tanh
+alpha=0.007008041966628943
+Score: -11.752421052167675" fillcolor="#ffd6d6" shape=box style=filled]
+		5 [label="ID 5
+Gen 0
+hidden_layer_sizes=(90,)
+activation=relu
+alpha=0.003343733064538876
+Score: -11.322666398820884" fillcolor="#b3d1ff" shape=box style=filled]
+		6 [label="ID 6
+Gen 0
+hidden_layer_sizes=(96, 101)
+activation=tanh
+alpha=0.004002755574954646
+Score: -11.752374776139678" fillcolor="#ffd6d6" shape=box style=filled]
+		7 [label="ID 7
+Gen 0
+hidden_layer_sizes=(98, 137, 133, 13)
+activation=relu
+alpha=0.003589706849694325
+Score: -0.5997576033886525" fillcolor="#b3d1ff" shape=box style=filled]
+		8 [label="ID 8
+Gen 0
+hidden_layer_sizes=(39, 65, 110, 148, 112)
+activation=tanh
+alpha=0.0035188646353272075
+Score: -11.752339000462248" fillcolor="#ffd6d6" shape=box style=filled]
+		9 [label="ID 9
+Gen 0
+hidden_layer_sizes=(165, 33)
+activation=relu
+alpha=0.004184128182019992
+Score: -4.0623410602342584" fillcolor="#b3d1ff" shape=box style=filled]
+	}
+	{
+		rank=same
+		16 [label="ID 16
+Gen 1
+hidden_layer_sizes=(98, 33, 133, 13)
+activation=relu
+alpha=0.0034919116364550756
+Score: -0.613603108633809" fillcolor="#b3d1ff" shape=box style=filled]
+		17 [label="ID 17
+Gen 1
+hidden_layer_sizes=(78, 45, 103)
+activation=relu
+alpha=0.005665042111256031
+Score: -0.5878131411232266" fillcolor="#b3d1ff" shape=box style=filled]
+		18 [label="ID 18
+Gen 1
+hidden_layer_sizes=(98, 137, 133, 13)
+activation=tanh
+alpha=0.0034544450495830417
+Score: -11.752602739482127" fillcolor="#ffd6d6" shape=box style=filled]
+		19 [label="ID 19
+Gen 1
+hidden_layer_sizes=(115, 45, 23, 190, 13)
+activation=tanh
+alpha=0.003589706849694325
+Score: -11.752603170962304" fillcolor="#ffd6d6" shape=box style=filled]
+		20 [label="ID 20
+Gen 1
+hidden_layer_sizes=(78, 36)
+activation=relu
+alpha=0.00509028876351159
+Score: -7.553169805770924" fillcolor="#ffd6d6" shape=box style=filled]
+		21 [label="ID 21
+Gen 1
+hidden_layer_sizes=(76, 33, 170)
+activation=tanh
+alpha=0.0037003967839853687
+Score: -11.752192341243525" fillcolor="#ffd6d6" shape=box style=filled]
+		22 [label="ID 22
+Gen 1
+hidden_layer_sizes=(60, 82, 197, 98, 187)
+activation=tanh
+alpha=0.0032952899618556163
+Score: -11.752165565241" fillcolor="#ffd6d6" shape=box style=filled]
+		23 [label="ID 23
+Gen 1
+hidden_layer_sizes=(98, 33, 133, 13, 89)
+activation=tanh
+alpha=0.004184128182019992
+Score: -11.752379414906029" fillcolor="#ffd6d6" shape=box style=filled]
+	}
+	{
+		rank=same
+		24 [label="ID 24
+Gen 2
+hidden_layer_sizes=(60, 45, 197, 98, 187)
+activation=tanh
+alpha=0.004155426602251056
+Score: -11.752158178361196" fillcolor="#ffd6d6" shape=box style=filled]
+		25 [label="ID 25
+Gen 2
+hidden_layer_sizes=(98, 33, 133, 98, 187)
+activation=relu
+alpha=0.0034919116364550756
+Score: -0.6345293128445904" fillcolor="#ffd6d6" shape=box style=filled]
+		26 [label="ID 26
+Gen 2
+hidden_layer_sizes=(78, 82, 170)
+activation=relu
+alpha=0.003401989089781194
+Score: -0.6205933988671677" fillcolor="#ffd6d6" shape=box style=filled]
+		27 [label="ID 27
+Gen 2
+hidden_layer_sizes=(98, 33, 13)
+activation=relu
+alpha=0.0034919116364550756
+Score: -0.5545579734656947" fillcolor="#b3d1ff" shape=box style=filled]
+		28 [label="ID 28
+Gen 2
+hidden_layer_sizes=(76, 67, 170)
+activation=tanh
+alpha=0.004664778649586794
+Score: -11.752197550889367" fillcolor="#ffd6d6" shape=box style=filled]
+		29 [label="ID 29
+Gen 2
+hidden_layer_sizes=(76, 112)
+activation=tanh
+alpha=0.0037003967839853687
+Score: -11.752346069325787" fillcolor="#ffd6d6" shape=box style=filled]
+		30 [label="ID 30
+Gen 2
+hidden_layer_sizes=(37, 112, 197, 98, 187)
+activation=tanh
+alpha=0.004197625588467095
+Score: -11.752165489086906" fillcolor="#ffd6d6" shape=box style=filled]
+		31 [label="ID 31
+Gen 2
+hidden_layer_sizes=(115, 45, 197, 22, 187)
+activation=relu
+alpha=0.004007203116248454
+Score: -0.58305696147176" fillcolor="#b3d1ff" shape=box style=filled]
+	}
+	{
+		rank=same
+		32 [label="ID 32
+Gen 3
+hidden_layer_sizes=(98, 33, 133, 88, 13)
+activation=tanh
+alpha=0.003589706849694325
+Score: -11.752596579213591" fillcolor="#ffd6d6" shape=box style=filled]
+		33 [label="ID 33
+Gen 3
+hidden_layer_sizes=(144, 137, 13, 13)
+activation=tanh
+alpha=0.003616622571851446
+Score: -11.752596063488879" fillcolor="#ffd6d6" shape=box style=filled]
+		34 [label="ID 34
+Gen 3
+hidden_layer_sizes=(115, 45, 103, 98, 187)
+activation=tanh
+alpha=0.0032952899618556163
+Score: -11.752154161223542" fillcolor="#ffd6d6" shape=box style=filled]
+		35 [label="ID 35
+Gen 3
+hidden_layer_sizes=(60, 45, 103, 98, 128)
+activation=relu
+alpha=0.005665042111256031
+Score: -0.6310937152669147" fillcolor="#ffd6d6" shape=box style=filled]
+		36 [label="ID 36
+Gen 3
+hidden_layer_sizes=(60, 79, 103, 98, 187)
+activation=relu
+alpha=0.0032952899618556163
+Score: -0.5796163525283922" fillcolor="#b3d1ff" shape=box style=filled]
+		37 [label="ID 37
+Gen 3
+hidden_layer_sizes=(115, 79, 103, 98, 187)
+activation=relu
+alpha=0.005088903764384963
+Score: -0.5074005808195541" fillcolor="#b3d1ff" shape=box style=filled]
+		38 [label="ID 38
+Gen 3
+hidden_layer_sizes=(98, 79, 197, 13, 187)
+activation=relu
+alpha=0.0032952899618556163
+Score: -0.49927672564860615" fillcolor="#b3d1ff" shape=box style=filled]
+		39 [label="ID 39
+Gen 3
+hidden_layer_sizes=(98, 45, 144, 135, 13)
+activation=tanh
+alpha=0.005943793419254306
+Score: -11.752599002183654" fillcolor="#ffd6d6" shape=box style=filled]
+	}
+	{
+		rank=same
+		40 [label="ID 40
+Gen 4
+hidden_layer_sizes=(115, 33, 13, 22, 187)
+activation=relu
+alpha=0.004007203116248454
+Score: -0.5899907206424073" fillcolor="#ffd6d6" shape=box style=filled]
+		41 [label="ID 41
+Gen 4
+hidden_layer_sizes=(115, 132, 197, 98, 187)
+activation=relu
+alpha=0.0036998459529761964
+Score: -0.5380576887040056" fillcolor="#b3d1ff" shape=box style=filled]
+		42 [label="ID 42
+Gen 4
+hidden_layer_sizes=(60, 45, 197, 98, 187)
+activation=tanh
+alpha=0.005665042111256031
+Score: -11.752158178357263" fillcolor="#ffd6d6" shape=box style=filled]
+		43 [label="ID 43
+Gen 4
+hidden_layer_sizes=(115, 79, 103, 98, 187)
+activation=tanh
+alpha=0.0032952899618556163
+Score: -11.752151864826" fillcolor="#ffd6d6" shape=box style=filled]
+		44 [label="ID 44
+Gen 4
+hidden_layer_sizes=(59, 79, 197, 13, 187)
+activation=relu
+alpha=0.0030892352059544177
+Score: -0.5882838088396096" fillcolor="#ffd6d6" shape=box style=filled]
+		45 [label="ID 45
+Gen 4
+hidden_layer_sizes=(115, 79, 103, 98, 187)
+activation=relu
+alpha=0.0023271528719208266
+Score: -0.6649865760936495" fillcolor="#ffd6d6" shape=box style=filled]
+		46 [label="ID 46
+Gen 4
+hidden_layer_sizes=(79, 197, 146, 187)
+activation=relu
+alpha=0.0032952899618556163
+Score: -0.6081854046116049" fillcolor="#ffd6d6" shape=box style=filled]
+		47 [label="ID 47
+Gen 4
+hidden_layer_sizes=(78, 79, 197, 13, 187)
+activation=tanh
+alpha=0.002342198752712056
+Score: -11.752119506405542" fillcolor="#ffd6d6" shape=box style=filled]
+	}
+	{
+		rank=same
+		48 [label="ID 48
+Gen 5
+hidden_layer_sizes=(60, 79, 103, 98, 187)
+activation=tanh
+alpha=0.005088903764384963
+Score: -11.75215798562229" fillcolor="#ffd6d6" shape=box style=filled]
+		49 [label="ID 49
+Gen 5
+hidden_layer_sizes=(115, 33, 197, 98, 187)
+activation=tanh
+alpha=0.0036998459529761964
+Score: -11.752169006215901" fillcolor="#ffd6d6" shape=box style=filled]
+		50 [label="ID 50
+Gen 5
+hidden_layer_sizes=(78, 45, 103, 98, 187)
+activation=tanh
+alpha=0.005665042111256031
+Score: -11.75216688681733" fillcolor="#ffd6d6" shape=box style=filled]
+		51 [label="ID 51
+Gen 5
+hidden_layer_sizes=(115, 79, 146, 98, 187)
+activation=relu
+alpha=0.0032952899618556163
+Score: -0.5863302868870544" fillcolor="#b3d1ff" shape=box style=filled]
+		52 [label="ID 52
+Gen 5
+hidden_layer_sizes=(115, 151, 197, 22, 187)
+activation=tanh
+alpha=0.005088903764384963
+Score: -11.752141393618182" fillcolor="#ffd6d6" shape=box style=filled]
+		53 [label="ID 53
+Gen 5
+hidden_layer_sizes=(115, 132, 98, 187)
+activation=tanh
+alpha=0.005665042111256031
+Score: -11.752164406042361" fillcolor="#ffd6d6" shape=box style=filled]
+		54 [label="ID 54
+Gen 5
+hidden_layer_sizes=(169, 79, 13, 13, 187)
+activation=tanh
+alpha=0.0038269557447570606
+Score: -11.752118854768344" fillcolor="#ffd6d6" shape=box style=filled]
+		55 [label="ID 55
+Gen 5
+hidden_layer_sizes=(98, 45, 13)
+activation=tanh
+alpha=0.0034919116364550756
+Score: -11.752598368687524" fillcolor="#ffd6d6" shape=box style=filled]
+	}
+	{
+		rank=same
+		56 [label="ID 56
+Gen 6
+hidden_layer_sizes=(115, 45, 197, 22, 187)
+activation=tanh
+alpha=0.004007203116248454
+Score: -11.752135743242368" fillcolor="#ffd6d6" shape=box style=filled]
+		57 [label="ID 57
+Gen 6
+hidden_layer_sizes=(115, 79, 103, 98, 187)
+activation=relu
+alpha=0.005088903764384963
+Score: -0.5074005808195541" fillcolor="#b3d1ff" shape=box style=filled]
+		58 [label="ID 58
+Gen 6
+hidden_layer_sizes=(115, 79, 146, 98, 187)
+activation=relu
+alpha=0.0032952899618556163
+Score: -0.5863302868870544" fillcolor="#ffd6d6" shape=box style=filled]
+		59 [label="ID 59
+Gen 6
+hidden_layer_sizes=(98, 197, 13, 179)
+activation=tanh
+alpha=0.002366075840871531
+Score: -11.752146624562618" fillcolor="#ffd6d6" shape=box style=filled]
+		60 [label="ID 60
+Gen 6
+hidden_layer_sizes=(115, 79, 197, 13, 187)
+activation=tanh
+alpha=0.0048910681682065495
+Score: -11.752116892378655" fillcolor="#ffd6d6" shape=box style=filled]
+		61 [label="ID 61
+Gen 6
+hidden_layer_sizes=(115, 132, 197, 98, 187)
+activation=tanh
+alpha=0.004007203116248454
+Score: -11.75216452900564" fillcolor="#ffd6d6" shape=box style=filled]
+		62 [label="ID 62
+Gen 6
+hidden_layer_sizes=(98, 79, 13, 13, 187)
+activation=tanh
+alpha=0.0034919116364550756
+Score: -11.75211079013384" fillcolor="#ffd6d6" shape=box style=filled]
+		63 [label="ID 63
+Gen 6
+hidden_layer_sizes=(115, 79, 146, 98)
+activation=tanh
+alpha=0.005088903764384963
+Score: -11.75237619979219" fillcolor="#ffd6d6" shape=box style=filled]
+	}
+	{
+		rank=same
+		64 [label="ID 64
+Gen 7
+hidden_layer_sizes=(115, 45, 197, 22, 187)
+activation=relu
+alpha=0.004007203116248454
+Score: -0.58305696147176" fillcolor="#ffd6d6" shape=box style=filled]
+		65 [label="ID 65
+Gen 7
+hidden_layer_sizes=(93, 197, 98, 187)
+activation=tanh
+alpha=0.0036998459529761964
+Score: -11.752166254079196" fillcolor="#ffd6d6" shape=box style=filled]
+		66 [label="ID 66
+Gen 7
+hidden_layer_sizes=(98, 79, 197, 98, 187)
+activation=tanh
+alpha=0.005164985376121479
+Score: -11.752162798551035" fillcolor="#ffd6d6" shape=box style=filled]
+		67 [label="ID 67
+Gen 7
+hidden_layer_sizes=(115, 30, 197, 13, 187)
+activation=relu
+alpha=0.005088903764384963
+Score: -0.5663340604107034" fillcolor="#ffd6d6" shape=box style=filled]
+		68 [label="ID 68
+Gen 7
+hidden_layer_sizes=(51, 79, 13, 98, 187)
+activation=tanh
+alpha=0.0032952899618556163
+Score: -11.752153798049266" fillcolor="#ffd6d6" shape=box style=filled]
+		69 [label="ID 69
+Gen 7
+hidden_layer_sizes=(115, 132, 103, 98, 187)
+activation=tanh
+alpha=0.00552677485787625
+Score: -11.752168871787259" fillcolor="#ffd6d6" shape=box style=filled]
+		70 [label="ID 70
+Gen 7
+hidden_layer_sizes=(98, 79, 13, 13, 56)
+activation=relu
+alpha=0.0032952899618556163
+Score: -0.5630449172986673" fillcolor="#b3d1ff" shape=box style=filled]
+		71 [label="ID 71
+Gen 7
+hidden_layer_sizes=(115, 79, 103, 98, 41)
+activation=relu
+alpha=0.004251985697078833
+Score: -0.49900207771390637" fillcolor="#b3d1ff" shape=box style=filled]
+	}
+	{
+		rank=same
+		72 [label="ID 72
+Gen 8
+hidden_layer_sizes=(115, 132, 13, 13, 187)
+activation=relu
+alpha=0.0035575468307938157
+Score: -0.5919323268638794" fillcolor="#ffd6d6" shape=box style=filled]
+		73 [label="ID 73
+Gen 8
+hidden_layer_sizes=(98, 79, 197, 13, 187)
+activation=tanh
+alpha=0.0040614956827281536
+Score: -11.752115181304264" fillcolor="#ffd6d6" shape=box style=filled]
+		74 [label="ID 74
+Gen 8
+hidden_layer_sizes=(115, 79, 79, 98, 187)
+activation=relu
+alpha=0.005088903764384963
+Score: -0.5750464911179884" fillcolor="#ffd6d6" shape=box style=filled]
+		75 [label="ID 75
+Gen 8
+hidden_layer_sizes=(115, 79, 103, 98, 187)
+activation=relu
+alpha=0.004251985697078833
+Score: -0.5072922335362327" fillcolor="#b3d1ff" shape=box style=filled]
+		76 [label="ID 76
+Gen 8
+hidden_layer_sizes=(98, 79, 13, 13, 56)
+activation=relu
+alpha=0.0032952899618556163
+Score: -0.5630449172986673" fillcolor="#ffd6d6" shape=box style=filled]
+		77 [label="ID 77
+Gen 8
+hidden_layer_sizes=(111, 79, 197, 13, 187)
+activation=tanh
+alpha=0.0034919116364550756
+Score: -11.7521207066529" fillcolor="#ffd6d6" shape=box style=filled]
+		78 [label="ID 78
+Gen 8
+hidden_layer_sizes=(124, 79, 103, 13, 56)
+activation=tanh
+alpha=0.002522197812658809
+Score: -11.752475305247312" fillcolor="#ffd6d6" shape=box style=filled]
+		79 [label="ID 79
+Gen 8
+hidden_layer_sizes=(115, 79, 98, 187)
+activation=tanh
+alpha=0.005088903764384963
+Score: -11.752160610025587" fillcolor="#ffd6d6" shape=box style=filled]
+	}
+	{
+		rank=same
+		80 [label="ID 80
+Gen 9
+hidden_layer_sizes=(53, 79, 98, 187)
+activation=tanh
+alpha=0.004251985697078833
+Score: -11.75215594220976" fillcolor="#ffd6d6" shape=box style=filled]
+		81 [label="ID 81
+Gen 9
+hidden_layer_sizes=(115, 79, 103, 98, 187)
+activation=relu
+alpha=0.0039679387913777245
+Score: -0.5072806862356272" fillcolor="#b3d1ff" shape=box style=filled]
+		82 [label="ID 82
+Gen 9
+hidden_layer_sizes=(94, 79, 197, 98, 187)
+activation=relu
+alpha=0.0044376245396510455
+Score: -0.513424182852465" fillcolor="#b3d1ff" shape=box style=filled]
+		83 [label="ID 83
+Gen 9
+hidden_layer_sizes=(98, 33, 13, 98, 187)
+activation=tanh
+alpha=0.004251985697078833
+Score: -11.752149998044398" fillcolor="#ffd6d6" shape=box style=filled]
+		84 [label="ID 84
+Gen 9
+hidden_layer_sizes=(115, 79, 103, 187, 187)
+activation=tanh
+alpha=0.005278982800129164
+Score: -11.752163686889478" fillcolor="#ffd6d6" shape=box style=filled]
+		85 [label="ID 85
+Gen 9
+hidden_layer_sizes=(98, 132, 197, 98, 187)
+activation=relu
+alpha=0.0034919116364550756
+Score: -0.6065582157382203" fillcolor="#ffd6d6" shape=box style=filled]
+		86 [label="ID 86
+Gen 9
+hidden_layer_sizes=(115, 79, 29, 98, 187)
+activation=tanh
+alpha=0.003821724368330967
+Score: -11.752158513670874" fillcolor="#ffd6d6" shape=box style=filled]
+		87 [label="ID 87
+Gen 9
+hidden_layer_sizes=(64, 79, 103, 98, 187)
+activation=tanh
+alpha=0.0032952899618556163
+Score: -11.7521651330809" fillcolor="#ffd6d6" shape=box style=filled]
+	}
+	{
+		rank=same
+		88 [label="ID 88
+Gen 10
+hidden_layer_sizes=(115, 79, 103, 98, 187)
+activation=tanh
+alpha=0.005088903764384963
+Score: " fillcolor="#ffd6d6" shape=box style=filled]
+		89 [label="ID 89
+Gen 10
+hidden_layer_sizes=(115, 79, 197, 13, 187)
+activation=tanh
+alpha=0.0039679387913777245
+Score: " fillcolor="#ffd6d6" shape=box style=filled]
+		90 [label="ID 90
+Gen 10
+hidden_layer_sizes=(115, 79, 103, 98, 187)
+activation=tanh
+alpha=0.0050037972267946524
+Score: " fillcolor="#ffd6d6" shape=box style=filled]
+		91 [label="ID 91
+Gen 10
+hidden_layer_sizes=(115, 79, 103, 98, 187)
+activation=tanh
+alpha=0.005088903764384963
+Score: " fillcolor="#ffd6d6" shape=box style=filled]
+		92 [label="ID 92
+Gen 10
+hidden_layer_sizes=(130, 79, 103, 98, 187)
+activation=tanh
+alpha=0.0039679387913777245
+Score: " fillcolor="#ffd6d6" shape=box style=filled]
+		93 [label="ID 93
+Gen 10
+hidden_layer_sizes=(115, 79, 103, 98, 187)
+activation=tanh
+alpha=0.0037118201750140464
+Score: " fillcolor="#ffd6d6" shape=box style=filled]
+		94 [label="ID 94
+Gen 10
+hidden_layer_sizes=(115, 79, 103, 98, 41)
+activation=relu
+alpha=0.0044376245396510455
+Score: " fillcolor="#ffd6d6" shape=box style=filled]
+		95 [label="ID 95
+Gen 10
+hidden_layer_sizes=(115, 79, 103, 167, 187)
+activation=relu
+alpha=0.004200838468378214
+Score: " fillcolor="#ffd6d6" shape=box style=filled]
+	}
+	9 -> 16
+	7 -> 16
+	15 -> 17
+	11 -> 17
+	7 -> 18
+	9 -> 18
+	7 -> 19
+	15 -> 19
+	5 -> 20
+	11 -> 20
+	9 -> 21
+	13 -> 21
+	11 -> 22
+	14 -> 22
+	9 -> 23
+	7 -> 23
+	17 -> 24
+	14 -> 24
+	16 -> 25
+	14 -> 25
+	13 -> 26
+	11 -> 26
+	16 -> 27
+	7 -> 27
+	11 -> 28
+	13 -> 28
+	13 -> 29
+	17 -> 29
+	14 -> 30
+	13 -> 30
+	14 -> 31
+	15 -> 31
+	7 -> 32
+	16 -> 32
+	7 -> 33
+	27 -> 33
+	15 -> 34
+	14 -> 34
+	17 -> 35
+	14 -> 35
+	15 -> 36
+	14 -> 36
+	14 -> 37
+	15 -> 37
+	16 -> 38
+	14 -> 38
+	7 -> 39
+	15 -> 39
+	27 -> 40
+	31 -> 40
+	37 -> 41
+	31 -> 41
+	17 -> 42
+	14 -> 42
+	37 -> 43
+	36 -> 43
+	36 -> 44
+	38 -> 44
+	37 -> 45
+	38 -> 45
+	36 -> 46
+	14 -> 46
+	17 -> 47
+	38 -> 47
+	36 -> 48
+	37 -> 48
+	27 -> 49
+	41 -> 49
+	36 -> 50
+	17 -> 50
+	38 -> 51
+	37 -> 51
+	31 -> 52
+	37 -> 52
+	41 -> 53
+	17 -> 53
+	38 -> 54
+	27 -> 54
+	27 -> 55
+	17 -> 55
+	31 -> 56
+	36 -> 56
+	37 -> 57
+	36 -> 57
+	51 -> 58
+	36 -> 58
+	36 -> 59
+	38 -> 59
+	38 -> 60
+	31 -> 60
+	31 -> 61
+	41 -> 61
+	27 -> 62
+	38 -> 62
+	37 -> 63
+	51 -> 63
+	31 -> 64
+	41 -> 64
+	41 -> 65
+	38 -> 65
+	57 -> 66
+	38 -> 66
+	38 -> 67
+	37 -> 67
+	27 -> 68
+	36 -> 68
+	37 -> 69
+	41 -> 69
+	38 -> 70
+	27 -> 70
+	57 -> 71
+	27 -> 71
+	70 -> 72
+	41 -> 72
+	41 -> 73
+	38 -> 73
+	57 -> 74
+	41 -> 74
+	41 -> 75
+	71 -> 75
+	27 -> 76
+	70 -> 76
+	38 -> 77
+	27 -> 77
+	70 -> 78
+	71 -> 78
+	71 -> 79
+	57 -> 79
+	41 -> 80
+	75 -> 80
+	41 -> 81
+	37 -> 81
+	41 -> 82
+	37 -> 82
+	27 -> 83
+	75 -> 83
+	57 -> 84
+	75 -> 84
+	27 -> 85
+	41 -> 85
+	75 -> 86
+	41 -> 86
+	37 -> 87
+	38 -> 87
+	75 -> 88
+	57 -> 88
+	81 -> 89
+	38 -> 89
+	71 -> 90
+	57 -> 90
+	37 -> 91
+	57 -> 91
+	37 -> 92
+	81 -> 92
+	82 -> 93
+	81 -> 93
+	37 -> 94
+	82 -> 94
+	37 -> 95
+	75 -> 95
+	1 -> 16 [style=invis]
+	10 -> 16 [style=invis]
+	11 -> 16 [style=invis]
+	12 -> 16 [style=invis]
+	13 -> 16 [style=invis]
+	14 -> 16 [style=invis]
+	15 -> 16 [style=invis]
+	2 -> 16 [style=invis]
+	3 -> 16 [style=invis]
+	4 -> 16 [style=invis]
+	5 -> 16 [style=invis]
+	6 -> 16 [style=invis]
+	7 -> 16 [style=invis]
+	8 -> 16 [style=invis]
+	9 -> 16 [style=invis]
+	16 -> 24 [style=invis]
+	17 -> 24 [style=invis]
+	18 -> 24 [style=invis]
+	19 -> 24 [style=invis]
+	20 -> 24 [style=invis]
+	21 -> 24 [style=invis]
+	22 -> 24 [style=invis]
+	23 -> 24 [style=invis]
+	24 -> 32 [style=invis]
+	25 -> 32 [style=invis]
+	26 -> 32 [style=invis]
+	27 -> 32 [style=invis]
+	28 -> 32 [style=invis]
+	29 -> 32 [style=invis]
+	30 -> 32 [style=invis]
+	31 -> 32 [style=invis]
+	32 -> 40 [style=invis]
+	33 -> 40 [style=invis]
+	34 -> 40 [style=invis]
+	35 -> 40 [style=invis]
+	36 -> 40 [style=invis]
+	37 -> 40 [style=invis]
+	38 -> 40 [style=invis]
+	39 -> 40 [style=invis]
+	40 -> 48 [style=invis]
+	41 -> 48 [style=invis]
+	42 -> 48 [style=invis]
+	43 -> 48 [style=invis]
+	44 -> 48 [style=invis]
+	45 -> 48 [style=invis]
+	46 -> 48 [style=invis]
+	47 -> 48 [style=invis]
+	48 -> 56 [style=invis]
+	49 -> 56 [style=invis]
+	50 -> 56 [style=invis]
+	51 -> 56 [style=invis]
+	52 -> 56 [style=invis]
+	53 -> 56 [style=invis]
+	54 -> 56 [style=invis]
+	55 -> 56 [style=invis]
+	56 -> 64 [style=invis]
+	57 -> 64 [style=invis]
+	58 -> 64 [style=invis]
+	59 -> 64 [style=invis]
+	60 -> 64 [style=invis]
+	61 -> 64 [style=invis]
+	62 -> 64 [style=invis]
+	63 -> 64 [style=invis]
+	64 -> 72 [style=invis]
+	65 -> 72 [style=invis]
+	66 -> 72 [style=invis]
+	67 -> 72 [style=invis]
+	68 -> 72 [style=invis]
+	69 -> 72 [style=invis]
+	70 -> 72 [style=invis]
+	71 -> 72 [style=invis]
+	72 -> 80 [style=invis]
+	73 -> 80 [style=invis]
+	74 -> 80 [style=invis]
+	75 -> 80 [style=invis]
+	76 -> 80 [style=invis]
+	77 -> 80 [style=invis]
+	78 -> 80 [style=invis]
+	79 -> 80 [style=invis]
+	80 -> 88 [style=invis]
+	81 -> 88 [style=invis]
+	82 -> 88 [style=invis]
+	83 -> 88 [style=invis]
+	84 -> 88 [style=invis]
+	85 -> 88 [style=invis]
+	86 -> 88 [style=invis]
+	87 -> 88 [style=invis]
+}
